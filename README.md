@@ -28,7 +28,7 @@
 꽃은 각각 피어나지만, 결국 모두 합쳐지는 모습이 마치 스토어 같습니다.
 남아메리카가 원산지인 맛있는 열대 과일이기도 합니다.
 
-[출처](https://pinia.vuejs.kr/introduction.html#why-pinia)
+
 
 ## Vuex 와 Pinia 차이점
 
@@ -38,3 +38,9 @@
 - 스토어를 동적으로 추가할 필요가 없
 - 더 이상 모듈의 중첩 구조가 없음 그리고  스토어의 순환 종속성을 가질 수도 있음.
 - 네임스페이스 모듈이 없고 모든 스토어가 네임스페이스라고 말할 수 있음
+
+<br>
+<br>
+<br>
+
+[출처](https://pinia.vuejs.kr/introduction.html#why-pinia)
