@@ -40,6 +40,34 @@
 - 네임스페이스 모듈이 없고 모든 스토어가 네임스페이스라고 말할 수 있음
 
 <br>
+
+## 시작
+
+<br>
+
+설치 
+~~~
+yarn add pinia
+# 또는 npm으로
+npm install pinia
+~~~
+>앱이 Vue 2.6.x 이하 버전을 사용하는 경우, 컴포지션 API도 설치해야 합니다: @vue/composition-api. Nuxt를 사용하는 경우, 이 지침을 따라야 합니다.
+
+<br>
+
+~~~
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
+import App from './App.vue'
+
+const pinia = createPinia()
+const app = createApp(App)
+
+app.use(pinia)
+app.mount('#app')
+~~~
+
+
 <br>
 <br>
 
